@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>滑动验证码</title>
+</head>
+<body>
+<img th:src="@{${'data:image/png;base64,' + backImage}}" />
+<img th:src="@{${'data:image/png;base64,' + slidingImage}}" />
+</body>
+</html>
+
